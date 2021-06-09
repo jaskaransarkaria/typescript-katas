@@ -1,10 +1,7 @@
 import test, { ExecutionContext } from 'ava';
+import fizzBuzz from './index';
 
-test('GIVEN a fizzBuzz function', (t: ExecutionContext) => {
-    test('WHEN the function returns', () => {
-        test('THEN it should return true', () => {
-            t.is(true, true);
-        });
-    });
-    t.pass();
+test('GIVEN a fizzBuzz function WHEN the function returns THEN it should return true', (t: ExecutionContext) => {
+    t.is(fizzBuzz(), true);
+    // t.pass();
 });
