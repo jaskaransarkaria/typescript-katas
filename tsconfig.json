@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true, // Emit additional JavaScript to ease support for importing CommonJS modules.
+    "incremental": false, // Save .tsbuildinfo files to allow for incremental compilation of projects.
+    "inlineSourceMap": true, // Include sourcemap files inside the emitted JavaScript.
+    "module": "commonjs", // Specify what module code is generated.
+    "noUnusedLocals": true, // Enable error reporting when a local variables aren't read.
+    "noUnusedParameters": true, // Raise an error when a function parameter isn't read
+    "outDir": "build", // Specify an output folder for all emitted files.
+    "preserveConstEnums": true, // Disable erasing const enum declarations in generated code.
+    "removeComments": true,
+    "resolveJsonModule": true, // Enable importing .json files
+    "rootDir": "./", // Specify the root folder within your source files.
+    "skipLibCheck": true, // Skip type checking all .d.ts files. -- This can save time during compilation at the expense of type-system accuracy.
+    "strict": true, // Enable all strict type checking options.
+    "target": "ES2020", // Set the JavaScript language version for emitted JavaScript and include compatible library declarations.
+    "types": [
+      "node", // Specify type package names to be included without being referenced in a source file.
+    ]
+  }
+}
