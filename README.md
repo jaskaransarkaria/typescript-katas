@@ -20,7 +20,7 @@ A visual example from `tree`:
 │       └── README.md
 </pre>
 
-Develop your code on a new git branch, devlop your code and push it up to this branch as you work. Bear in mind the git 
+Develop your code on a new git branch and push it up to the remote as you work. Bear in mind the git 
 hooks will ensure that your tests have 99% code coverage and will lint/ format your code before pushing it.
 
 When your happy with your code and ready to merge into main, please open a Pull Request by navigating 
