@@ -3,7 +3,7 @@
 This repo serves 2 purposes:
 
 1) As a playground to solve typescript katas
-2) As an showcase typescript repo which includes a testing framework, linting, formating and other useful repo tools
+2) As a showcase typescript repo which includes a testing framework, linting, formating and other useful repo tools
 
 ## Contributing to the repo
 
@@ -12,11 +12,13 @@ a `README.md` outlining the kata, a test file with the `.spec.ts` extension and 
 
 A visual example from `tree`:
 
+<pre>
 ├── src
 │   └── fizzBuzz
 │       ├── index.spec.ts
 │       ├── index.ts
 │       └── README.md
+</pre>
 
 Develop your code on a new git branch, devlop your code and push it up to this branch as you work. Bear in mind the git 
 hooks will ensure that your tests have 99% code coverage and will lint/ format your code before pushing it.
